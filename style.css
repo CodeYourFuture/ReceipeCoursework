@@ -78,10 +78,27 @@
 .meat_balls > img {
     padding-top: 1rem;
     padding-left: 3rem;
+    padding-right: 3rem;
     padding-bottom: 7rem;
+
 }
 h3 {
     padding-left: 5%;
     font-size: 25px;
 }
-
+.meat_balls {
+    display: flex;
+}
+.ingrediants {
+    text-decoration: none;
+}
+.meat_balls_list {
+    display: flex;
+    flex-direction: column;
+    
+}
+.meat_balls_list > p {
+    padding-left: 3rem;
+    font-weight: bold;
+    font-size: 20px;
+}
