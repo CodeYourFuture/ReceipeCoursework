@@ -2,9 +2,20 @@
 .container{
     display: grid;
     grid-auto-rows: minmax(100px, auto);
-    grid-gap: 10px;
+    grid-gap: 3px;
 
-
+    grid-template-areas: 
+    "h h h h h"
+    "nav nav nav sp sp"
+    "ma ma ma sp sp"
+    "ma ma ma sp sp"
+    "ma ma ma sp sp"
+    "nav2 nav2 se se se"
+    "foot foot foot foot foot "
+    
+    
+    
+    ;
 }
 
 .box{
@@ -13,5 +24,27 @@
     color: rgb(10, 1, 2);
     font-size: 1.5rem;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+}
+
+.head{
+    grid-area: h;
+}
+.main{
+    grid-area: ma;
+}
+.nav{
+    grid-area: nav;
+}
+.side-part{
+    grid-area: sp;
+}
+.secion{
+    grid-area: se;
+}
+.nav2{
+    grid-area: nav2;
+}
+.footer{
+    grid-area: foot;
 }
