@@ -1,0 +1,11 @@
+
+
+
+.box{
+    background-color: lightgray;
+    display: flex;
+    color: lightpink;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-content: center;
+}
