@@ -38,20 +38,21 @@
 }
 .image {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 10rem;
 }
 .explore {
     padding-left: 40px;
     color: rgb(231, 152, 169);
     font-size: 1.5rem;
 }
-.article1, .article2 {
+.article1, .article2, .article3 {
     padding-top: 2rem;
     padding-left: 1rem;
     display: flex;
+    flex-wrap: wrap;
     
 }
-.article_image1 {
+.article_image1, .article_image2, .article_image3 {
     padding-right: 7%;
 }
 .articles a:hover {
@@ -61,3 +62,26 @@
 .articles a {
     text-decoration: none;
 }
+.article1_and_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer {
+    margin-top: 10rem;
+    
+}
+.footer > p {
+    background-color:darkgreen
+}
+
+.meat_balls > img {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 7rem;
+}
+h3 {
+    padding-left: 5%;
+    font-size: 25px;
+}
+
