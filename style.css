@@ -38,4 +38,26 @@
 }
 .image {
     padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.explore {
+    padding-left: 40px;
+    color: rgb(231, 152, 169);
+    font-size: 1.5rem;
+}
+.article1, .article2 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    display: flex;
+    
+}
+.article_image1 {
+    padding-right: 7%;
+}
+.articles a:hover {
+    color: coral;
+    
+}
+.articles a {
+    text-decoration: none;
 }
