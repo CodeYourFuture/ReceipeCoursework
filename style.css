@@ -1,10 +1,16 @@
 
+.container{
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
 
+
+}
 
 .box{
     background-color: lightgray;
     display: flex;
-    color: lightpink;
+    color: rgb(10, 1, 2);
     font-size: 1.5rem;
     justify-content: center;
     align-content: center;
