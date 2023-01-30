@@ -102,7 +102,7 @@ a:hover {
 }
 #main .showcase:before {
   content: "";
-  background: url(./img/ghormeh-sabzi-persian-rice.jpg.crdownload) no-repeat
+  background: url(./img/ghormeh-sabzi-persian-rice.jpg) no-repeat
     center center/cover;
   position: absolute;
   top: 0;
@@ -130,7 +130,7 @@ a:hover {
   flex: 1;
 }
 #main .ingredients .des-pic {
-  background: url("./img/ghormeh-sabzi-ingredients.jpg.crdownload") no-repeat
+  background: url(./img/ghormeh-sabzi-ingredients.jpg) no-repeat
     center center/cover;
   height: 500px;
 }
