@@ -1,0 +1,30 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 40rem;
+    margin-top: 0;
+    background-color: rgb(18, 9, 1);
+    margin: 0;
+}
+
+.text-area{
+    max-height: 40rem;
+    position: absolute;
+    color: rgb(231, 214, 206);
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';    align-content: center;
+    max-width: 30rem;
+    font-weight: 100;
+    top: 40%;
+    left: 8%;    
+}
+ 
+.text-area h1{
+    font-size: 3rem;
+}
+.background-img{
+    opacity: .2;
+}
+
+header img{
+    max-height: 40rem;
+}
