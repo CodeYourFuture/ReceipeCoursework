@@ -66,6 +66,8 @@ hr{
     border: solid rgb(148, 113, 71) 0.05rem;
 }
 
+
+
 .instruction-img{
     gap:1.5rem;
     max-width: 19rem;
@@ -102,6 +104,13 @@ html{
     font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';    align-content: center;
     text-align: justify;
     color: rgb(36, 22, 13);
+}
+
+footer p{
+    font-size: 1rem;
+    font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';    align-content: center;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .recipe-main h2{
