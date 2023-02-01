@@ -169,3 +169,8 @@ html{
 .text-side{
     max-width: 30rem;
 }
+
+.text-side a{
+    text-decoration: none;
+    color: brown;
+}
