@@ -1,0 +1,57 @@
+ .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(4,auto);
+    
+}
+header {
+    grid-column: 1;
+    grid-row:1;
+    
+    
+}
+.photo-pierogi {
+    grid-column: 2 / -1;
+    grid-row: 1;
+    width: 700px;
+    height: 650px
+    
+}
+
+.about { 
+    grid-column: 1 / -1;
+    grid-row: 2;
+    border-top: 2px solid lightgray;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+}
+.ingredients {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 20px;
+}
+
+.preparation {
+    grid-column: 2 / -1;
+    grid-row: 3 / 5;
+
+}
+
+
+h1 {
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+ 
+}
+
+.folded-pierogi {
+    width: 400px;
+    padding: 50px;
+
+}
