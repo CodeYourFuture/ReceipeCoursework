@@ -67,6 +67,13 @@ section {
   border-radius: 6px;
 }
 
+.recipe-section {
+  background-color: rgb(207, 80, 101);
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+}
+
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
