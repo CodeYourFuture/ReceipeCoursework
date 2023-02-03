@@ -4,7 +4,7 @@ body{
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 4rem 100rem 5rem;  
+    grid-template-rows: 4rem 95rem 6rem;  
 }
 .main{
     display: flex;
@@ -63,13 +63,26 @@ h1{
 .recipe_steps{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 30rem);
+    grid-template-rows: repeat(2, 25rem);
     gap: 5px;
   }
   .article_steps{
     display: flex;
     flex-direction: column;
+    width: 20rem;
+    margin: 0 2rem;
+    margin-top: 3rem;
   }
+  .image_step{
+    width:20rem;
+  }
+
+/** footer  */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .logo_footer{
     height: 3rem;
     width: auto;
