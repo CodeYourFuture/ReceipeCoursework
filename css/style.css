@@ -1,10 +1,16 @@
+/** General styles  */
 body{
     margin: 0;
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 4rem 200rem 5rem;  
+    grid-template-rows: 4rem 100rem 5rem;  
 }
+.main{
+    display: flex;
+    flex-direction: column; 
+}
+/** Header style */
 .header {
     display: flex;
     justify-content: space-between;
@@ -31,20 +37,38 @@ body{
 .navigation_link:hover {
     color: #f8520b;
 }
-.main{
+/** Hero styles  */
+.hero_ingredients{
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;
 }
 
-.hero_ingredients{
-    border: 1rem solid black;
+h1{
+    color: whitesmoke;
+    text-shadow: -5px 5px 0px rgb(157, 147, 147);
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 5rem;
 }
+.hero{
+    background-image: url("../images/main.jpeg");
+    background-color: #cccccc;
+    background-size: cover;
+    width: 70%;
+}
+.ingredients{
+    padding-right: 2rem;
+}
+/** step by step styles  */
 .recipe_steps{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 50rem);
+    grid-template-rows: repeat(2, 30rem);
     gap: 5px;
+  }
+  .article_steps{
+    display: flex;
+    flex-direction: column;
   }
 .logo_footer{
     height: 3rem;
