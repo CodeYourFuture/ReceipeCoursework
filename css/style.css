@@ -1,4 +1,52 @@
 body{
     margin: 0;
-    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif; 
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 4rem 200rem 5rem;  
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo_header{
+    height: 3rem;
+    width: auto;
+}
+.navigation_list {
+    display: flex;
+    list-style: none;
+    padding-right: 1rem;
+    font-size: 1rem;
+    margin-right: 2.4rem;
+}
+.navigation_item{
+    padding: 0rem 3rem;
+}
+.navigation_link{
+    color: #98CBB4;
+    text-decoration: none;
+    padding: 0 0.8rem;
+}
+.navigation_link:hover {
+    color: #f8520b;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero_ingredients{
+    border: 1rem solid black;
+}
+.recipe_steps{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50rem);
+    gap: 5px;
+  }
+.logo_footer{
+    height: 3rem;
+    width: auto;
 }
