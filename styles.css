@@ -82,6 +82,14 @@ section {
   color: ##e6fcf5;
 }
 
+.recipe-text {
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: ##e6fcf5;
+}
+
 .testimonial-box h2 {
   margin-bottom: 24px;
 }
