@@ -3,6 +3,10 @@ header {
 
 }
 
+li{
+    list-style: none;
+}
+
 .nav-list{
     display: flex;
     justify-content: space-around;
