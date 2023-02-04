@@ -2,7 +2,7 @@
  .grid {
     display: grid;
     grid-template-columns: repeat(3, 400px);
-    grid-template-rows: 650px 340px 500px auto auto;
+    grid-template-rows: 650px 340px 600px auto auto;
     font-family: 'Fira Sans', sans-serif;
 }
 header {
@@ -76,3 +76,6 @@ h2 {
     padding-bottom: 10px;
     width: 150px;
 }
+.ingredients-title (
+    padding-left: 20px;
+)
