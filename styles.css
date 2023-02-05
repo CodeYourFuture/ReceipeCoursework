@@ -4,8 +4,16 @@ body {
     font-size: 18px;
 }
 
+h1, h2, h3 {
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
 
-img {
+/* ul, ol {
+    padding-bottom: 0.5;
+} */
+
+.standard-image {
     height: 300px;
     width: 450px;
     display: flex;
