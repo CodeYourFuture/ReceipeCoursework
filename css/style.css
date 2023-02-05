@@ -32,16 +32,42 @@ li {
   grid-template-areas: "a m m m";
 }
 
+.main-article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-areas: "h h"
+    "ing  how"
+    "par par";
+    justify-content: center;
+}
+
+.h2{
+    grid-area: h;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.ingredient{
+    grid-area: ing;
+}
+
+.how-to-cook{
+    grid-area: how;
+}
+
+.parag{
+    grid-area: par;
+    padding: 50px;
+}
+
+
 /* MAIN STYLE */
 main {
   border: 2px solid grey;
   grid-area: m;
 }
-.aside-img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+
 
 /* ASIDE STYLE */
 aside {
@@ -56,6 +82,19 @@ aside {
     "baklava"
     "kahve";
 }
+.aside-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#overflow {
+  padding: 10px;
+  width: 100%;
+  height: 580px;
+  overflow: scroll;
+}
+
 
 .kebab {
   background-color: indianred;
