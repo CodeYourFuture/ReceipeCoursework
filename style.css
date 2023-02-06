@@ -1,22 +1,33 @@
 header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     max-height: 100rem;
-    margin-top: 0;
     background-color: rgb(18, 9, 1);
-    margin: auto;
-    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .text-area{
-    position: absolute;
     color: rgb(231, 214, 206);
     font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';    align-content: center;
-    max-width: 30rem;
+    max-width: 54rem;
     font-weight: 100;
-    top: 40%;
-    left: 8%;   
+    position: relative;
+
 }
+
+.text-area img{
+    position: relative;
+
+}
+.text-in{
+    position: absolute;
+    top: 35%;
+    left:10%;
+}
+
+
  
 .text-area h1{
     font-size: 3rem;
@@ -24,13 +35,17 @@ header{
 .background-img{
     opacity: .1;
     filter: blur(1rem);
-    max-width:50.8rem;
+    max-width:52rem;
+    align-content: flex-start;
+    
 
 }
 
-header img{
-    max-height: 60rem;
-    max-width: 100%;
+.picture img{
+    position: relative;
+    max-width: 53rem;
+    justify-content: left;
+
 }
 
 main{
@@ -183,3 +198,9 @@ footer p{
     text-decoration: none;
     color: brown;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 0, 0);
+    }
+  }
