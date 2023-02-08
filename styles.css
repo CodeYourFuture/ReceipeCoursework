@@ -86,68 +86,6 @@ nav h2 {
   font-weight: 400;
 }
 
-/*.recipe-container {
-  display: grid;
-  padding-top: 100px;
-  margin-top: 100px;
-  background-color: #ffff;
-  width: auto;
-  height: 800px;
-  margin: 80px 50px;
-  border-radius: 10px;
-}
-.panna-cotta-img {
-  display: flex;
-  width: 470px;
-  height: 409px;
-  border-radius: 10px;
-  padding-left: 70px;
-  padding-bottom: 30px;
-}
-.ingridients-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 470px;
-  height: 311px;
-  background: #bdbec1;
-  border-radius: 10px;
-  margin-left: 70px;
-}
-.ingridients-container h2 {
-  font-size: 35px;
-  font-family: "Kristi", cursive;
-  font-weight: 200;
-  word-spacing: 0.5rem;
-  letter-spacing: 0.2rem;
-  padding-top: 30px;
-  color: #191919;
-}
-.ingridients-container ul {
-  display: flex;
-  flex-direction: column;
-  padding-top: 30px;
-  font-size: 18px;
-  color: #191919;
-  font-family: "Tenor Sans", sans-serif;
-  list-style-type: none;
-}
-
-.method-container {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  padding: 10px;
-  gap: 10px;
-
-  position: relative;
-  width: 695.91px;
-  height: 615.1px;
-
-  background: #f0e3de;
-  border-radius: 10px;
-}
-*/
 .recipe-container {
   display: grid;
   grid-template-columns: 1fr 50px 2fr;
@@ -173,15 +111,15 @@ nav h2 {
 }
 
 .ingridients-container {
-  width: 400px;
-  margin-right: 200px;
   grid-column: 2;
   grid-row-end: 3;
+  height: 300px;
+  width: 420px;
   background: #bdbec1;
   border-radius: 10px;
   padding-left: 70px;
   margin-left: 50px;
-  height: 300px;
+  margin-right: 200px;
 }
 
 .ingridients-container h2 {
@@ -204,20 +142,21 @@ nav h2 {
 .recipe-tittle-container {
   grid-column: 2;
   grid-row: 1;
-  width: 600px;
+  width: 800px;
   /*align-content: center;
   justify-content: center;  i don't know why it does not work? */
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
   color: #050505;
-  padding-left: 250px;
+  padding-left: 20px;
   margin-right: 100px;
+  text-align: center;
 }
-.recipe-tittle-container h4 {
-  padding-left: 40px;
-  font-weight: 400;
+.font-size-h4 {
   font-size: 35px;
-  line-height: 5px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 3px;
 }
 .method-container {
   grid-column: 3;
@@ -240,16 +179,72 @@ nav h2 {
   font-size: 35px;
 }
 
-.subscribe-container {
-  padding-top: 100px;
-  display: flex;
-  width: auto;
-  height: 217px;
-  background-color: #000000;
-  color: #eceef1;
+* {
+  box-sizing: border-box;
 }
-.subscribe-container h3 {
-  font-size: 35px;
-  color: #ebe7e7;
+
+.form-container {
+  background-color: #1b1d24;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+}
+
+.box {
+  border-radius: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
   text-align: center;
+  max-width: 500px;
+}
+
+.styling-header-form {
+  margin: 10px 0 0;
+  color: #fcfbff;
+  font-size: 20px;
+}
+
+.box p {
+  color: #fcfbff;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.box img {
+  max-width: 100%;
+  width: 400px;
+}
+
+.form-control {
+  position: relative;
+  margin: 30px 0 20px;
+}
+
+.input {
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  height: 42px;
+  padding: 12px 25px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #312940;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  height: 42px;
+  padding: 12px 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
