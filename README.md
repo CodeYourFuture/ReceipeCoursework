@@ -1,6 +1,6 @@
 You will be starting from scratch a new website project:
 
-EXPECTATION: Create a new recipe page for your favourite meal and how to make it and where it comes from making sure you put into practice the techniques learnt throughout the week. 
+EXPECTATION: Create a new recipe page for your favorite meal and how to make it and where it comes from making sure you put into practice the techniques learnt throughout the week. 
 
 This website should be source controlled with git and needs to have clear branching strategy.
 
